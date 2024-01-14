@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "119b1676-3944-4ff1-b694-85d13a1fa280",
+		"name": "BetaFashion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "import-csv",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/xampp749/htdocs/betafashion/betafashion/tests/data/test.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8000/api/import-csv",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"import-csv"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
